@@ -1,0 +1,119 @@
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a, .btn-link {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.content {
+    padding-top: 1.1rem;
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid red;
+}
+
+.validation-message {
+    color: red;
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+
+
+.content {
+    width: calc(100% - 250px);
+    padding: 80px 40px 40px 40px;
+    /* min-height: 100vh; */
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+    .content.active {
+        width: calc(100% - 80px);
+    }
+
+    .content.full {
+        width: 100%;
+        position: relative;
+    }
+
+.bg-light {
+    background-color: #eeeeee !important;
+    border-color: #eeeeee !important;
+}
+
+.btn-light {
+    color: #fff;
+    background-color: #eeeeee !important;
+    border-color: #eeeeee !important;
+}
+
+    .btn-light:hover {
+        color: #fff;
+        background-color: #c0bdbd !important;
+        border-color: #c0bdbd !important
+    }
+
+    .btn-light:focus, .btn-light.focus {
+        background-color: #c0bdbd !important;
+        border-color: #c0bdbd !important;
+    }
+
+    .btn-light.disabled, .btn-light:disabled {
+        background-color: #eeeeee !important;
+        border-color: #eeeeee !important;
+    }
+
+    .btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active,
+    .show > .btn-light.dropdown-toggle {
+        background-color: #eeeeee !important;
+        border-color: #eeeeee !important;
+    }
+
+ul li .nav-link.navbar-light.active {
+    color: rgb(87, 87, 87) !important;
+    background: #c0bdbd !important;
+}
+
+img {
+    object-fit: cover;
+}
+
+.admin-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    color: #6c757d;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
